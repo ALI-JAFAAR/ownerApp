@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\AHMED\\Desktop\\Market_v1.0.0\\ownerApp\\build\\url_launcher\\intermediates\\res\\merged\\debug\\values-te\\values-te.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\AHMED\\.gradle\\caches\\transforms-2\\files-2.1\\6f06466fc84f969fa8872526f2c50681\\core-1.1.0\\res\\values-te\\values-te.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\AHMED\\Desktop\\Market_v1.0.0\\ownerApp\\build\\url_launcher\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te\\values-te.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\AHMED\\.gradle\\caches\\transforms-2\\files-2.1\\6f06466fc84f969fa8872526f2c50681\\core-1.1.0\\res\\values-te\\values-te.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

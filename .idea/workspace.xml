@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef49e70a-f09c-4408-9b09-19de4f15db30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/android/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/rus.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/config/language/langRus.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/api.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config/api.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/lang.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config/lang.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/language/langArabic.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config/language/langArabic.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/language/langDeu.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config/language/langDeu.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/language/langEsp.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config/language/langEsp.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/language/langFrench.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config/language/langFrench.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/language/langKorean.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config/language/langKorean.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/language/langPort.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config/language/langPort.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/config/theme.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/config/theme.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/category.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/category.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/categoryDelete.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/categoryDelete.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/categorySave.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/categorySave.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/changeDriver.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/changeDriver.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/changePassword.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/changePassword.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/changeProfile.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/changeProfile.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/changeStatus.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/changeStatus.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/chatGet.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/chatGet.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/chatSend.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/chatSend.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/chatUnread.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/chatUnread.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/chatUsers.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/chatUsers.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/extras.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/extras.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/extrasDelete.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/extrasDelete.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/extrasGroupDelete.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/extrasGroupDelete.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/extrasGroupSave.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/extrasGroupSave.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/extrasSave.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/extrasSave.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/fcbToken.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/fcbToken.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/foodDelete.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/foodDelete.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/foodSave.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/foodSave.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/foods.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/foods.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/forgot.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/forgot.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/getAppSettings.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/getAppSettings.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/login.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/notify.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/notify.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/notifyDelete.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/notifyDelete.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/orders.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/orders.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/restaurantDelete.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/restaurantDelete.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/restaurantSave.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/restaurantSave.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/restaurants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/restaurants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/totals.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/totals.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/model/server/uploadavatar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/model/server/uploadavatar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/login/login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/login/login.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/main/chat.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/main/chat.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/main/foods.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/main/foods.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/main/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/main/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/main/mainscreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/main/mainscreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/main/orders.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/main/orders.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/main/restaurants.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/main/restaurants.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/menu/menu.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/menu/menu.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/ICard24.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/ICard24.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/ICard28FileCaching.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/ICard28FileCaching.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/widgets.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/widgets.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1i0T4zAerAhazrLqlk1l7YvP2VI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="com.android.tools.idea.emulator.frame.cropped" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="io.flutter.reload.alreadyRun" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/config/language" />
+    <property name="settings.editor.selected.configurable" value="emulator" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\owner\lib\config\language" />
+      <recent name="C:\dev2\owner\lib\model\server" />
+      <recent name="C:\dev2\owner\lib\config" />
+      <recent name="C:\dev2\owner\lib\ui\widgets" />
+      <recent name="C:\dev2\owner\lib\ui\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev2\owner\android\app" />
+      <recent name="C:\dev2\owner\lib\ui\main" />
+      <recent name="C:\dev\food_delivery_template_deliv\lib\ui\menu" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ef49e70a-f09c-4408-9b09-19de4f15db30" name="Default Changelist" comment="" />
+      <created>1601043326363</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601043326363</updated>
+    </task>
+    <task id="LOCAL-00001" summary="h">
+      <created>1601306621480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601306621480</updated>
+    </task>
+    <task id="LOCAL-00002" summary="h">
+      <created>1601321133876</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601321133876</updated>
+    </task>
+    <task id="LOCAL-00003" summary="h">
+      <created>1601406678776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601406678776</updated>
+    </task>
+    <task id="LOCAL-00004" summary="h">
+      <created>1601484690566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601484690566</updated>
+    </task>
+    <task id="LOCAL-00005" summary="h">
+      <created>1607269152747</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607269152747</updated>
+    </task>
+    <task id="LOCAL-00006" summary="h">
+      <created>1607617721559</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607617721560</updated>
+    </task>
+    <task id="LOCAL-00007" summary="h">
+      <created>1607853445978</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607853445978</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="h" />
+    <option name="LAST_COMMIT_MESSAGE" value="h" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="50" y="118" width="1292" height="840" key="AVDManager" timestamp="1609156291127">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="50" y="118" width="1292" height="840" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1609156291127" />
+    <state x="390" y="97" key="CommitChangelistDialog2" timestamp="1607853444986">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="390" y="97" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1607853444986" />
+    <state width="505" height="466" key="DebuggerActiveHint" timestamp="1611073620876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="505" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1611073620876" />
+    <state x="526" y="275" key="FileChooserDialogImpl" timestamp="1606160082902">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="526" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1606160082902" />
+    <state width="1440" height="220" key="GridCell.Tab.0.bottom" timestamp="1611142054517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1440" height="220" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611142054517" />
+    <state width="1440" height="220" key="GridCell.Tab.0.center" timestamp="1611142054517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1440" height="220" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611142054517" />
+    <state width="1440" height="220" key="GridCell.Tab.0.left" timestamp="1611142054517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1440" height="220" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611142054517" />
+    <state width="1440" height="220" key="GridCell.Tab.0.right" timestamp="1611142054517">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1440" height="220" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611142054517" />
+    <state x="0" y="401" width="1440" height="228" key="GridCell.Tab.1.bottom" timestamp="1611076915260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="401" width="1440" height="228" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1611076915260" />
+    <state x="0" y="401" width="1440" height="228" key="GridCell.Tab.1.center" timestamp="1611076915260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="401" width="1440" height="228" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1611076915260" />
+    <state x="0" y="401" width="1440" height="228" key="GridCell.Tab.1.left" timestamp="1611076915260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="401" width="1440" height="228" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1611076915260" />
+    <state x="0" y="401" width="1440" height="228" key="GridCell.Tab.1.right" timestamp="1611076915260">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="401" width="1440" height="228" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1611076915260" />
+    <state width="1877" height="305" key="GridCell.Tab.2.bottom" timestamp="1606162815620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="305" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1606162815620" />
+    <state width="1877" height="305" key="GridCell.Tab.2.center" timestamp="1606162815620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="305" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1606162815620" />
+    <state width="1877" height="305" key="GridCell.Tab.2.left" timestamp="1606162815620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="305" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1606162815620" />
+    <state width="1877" height="305" key="GridCell.Tab.2.right" timestamp="1606162815620">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="305" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1606162815620" />
+    <state x="49" y="191" key="SettingsEditor" timestamp="1606159454742">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="49" y="191" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1606159454742" />
+    <state x="287" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607853527293">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="287" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1607853527293" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1607288760343">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1607288760343" />
+    <state x="564" y="372" key="git4idea.rebase.GitRebaseDialog" timestamp="1605891433376">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="564" y="372" key="git4idea.rebase.GitRebaseDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1605891433376" />
+    <state x="392" y="234" key="run.anything.popup" timestamp="1611142572780">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="392" y="234" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611142572780" />
+    <state x="358" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1609145134335">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="358" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1609145134335" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/model/account.dart</url>
+          <line>127</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/model/server/extras.dart</url>
+          <line>27</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="FlutterRunConfigurationType">
+        <watch expression="_currentPage" language="Dart" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

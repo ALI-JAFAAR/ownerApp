@@ -1,0 +1,295 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.alijaafar95.ecommerce"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="28" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:4:5-66
+14-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->[:geolocator] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-79
+15-->[:geolocator] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\geolocator\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-76
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->[:image_picker] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-80
+16-->[:image_picker] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:7:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Include required permissions for Google Maps API to run. -->
+17-->[:image_picker] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-81
+17-->[:image_picker] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:8:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\e9560971b02c4a874391a1bea9262c6f\play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+18-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\e9560971b02c4a874391a1bea9262c6f\play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+19
+20    <uses-feature
+20-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\e9560971b02c4a874391a1bea9262c6f\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+21        android:glEsVersion="0x00020000"
+21-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\e9560971b02c4a874391a1bea9262c6f\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+22        android:required="true" />
+22-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\e9560971b02c4a874391a1bea9262c6f\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+23
+24    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+24-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\81207c129048cc29b5b7e47a18e0ab6a\firebase-iid-20.0.1\AndroidManifest.xml:24:5-68
+24-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\81207c129048cc29b5b7e47a18e0ab6a\firebase-iid-20.0.1\AndroidManifest.xml:24:22-65
+25    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+25-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\81207c129048cc29b5b7e47a18e0ab6a\firebase-iid-20.0.1\AndroidManifest.xml:26:5-82
+25-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\81207c129048cc29b5b7e47a18e0ab6a\firebase-iid-20.0.1\AndroidManifest.xml:26:22-79
+26    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+26-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\5fb9658e4cea3fd0b7cb6b851935e9f8\play-services-measurement-17.5.0\AndroidManifest.xml:26:5-110
+26-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\5fb9658e4cea3fd0b7cb6b851935e9f8\play-services-measurement-17.5.0\AndroidManifest.xml:26:22-107
+27
+28    <application
+28-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:6:5-46:19
+29        android:name="io.flutter.app.FlutterApplication"
+29-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:7:9-57
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.2.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\c34a36e642f7b9b35ad5e00fe3ee89e7\core-1.2.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:9:9-43
+33        android:label="FoodDelivery Owner" >
+33-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:8:9-43
+34        <meta-data
+34-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:10:9-11:70
+35            android:name="com.google.android.geo.API_KEY"
+35-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:10:20-65
+36            android:value="AIzaSyABLOSe0TKAflZDTjZnkiVEMj_Kcn00X0Q" />
+36-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:11:13-68
+37
+38        <activity
+38-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:12:9-40:20
+39            android:name="com.abg.owner.MainActivity"
+39-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:13:13-41
+40            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+40-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:16:13-163
+41            android:hardwareAccelerated="true"
+41-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:17:13-47
+42            android:launchMode="singleTop"
+42-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:14:13-43
+43            android:theme="@style/LaunchTheme"
+43-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:15:13-47
+44            android:windowSoftInputMode="adjustResize" >
+44-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:18:13-55
+45
+46            <!--
+47                 Specifies an Android theme to apply to this Activity as soon as
+48                 the Android process has started. This theme is visible to the user
+49                 while the Flutter UI initializes. After that, this theme continues
+50                 to determine the Window background behind the Flutter UI.
+51            -->
+52            <meta-data
+52-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:23:13-26:17
+53                android:name="io.flutter.embedding.android.NormalTheme"
+53-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:24:15-70
+54                android:resource="@style/NormalTheme" />
+54-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:25:15-52
+55            <!--
+56                 Displays an Android View that continues showing the launch screen
+57                 Drawable until Flutter paints its first frame, then this splash
+58                 screen fades out. A splash screen is useful to avoid any visual
+59                 gap between the end of Android's launch screen and the painting of
+60                 Flutter's first frame.
+61            -->
+62            <meta-data
+62-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:32:13-35:17
+63                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+63-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:33:15-79
+64                android:resource="@drawable/launch_background" />
+64-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:34:15-61
+65
+66            <intent-filter>
+66-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:36:13-39:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:37:17-68
+67-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:37:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:38:17-76
+69-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:38:27-74
+70            </intent-filter>
+71        </activity>
+72        <!--
+73             Don't delete the meta-data below.
+74             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+75        -->
+76        <meta-data
+76-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:43:9-45:33
+77            android:name="flutterEmbedding"
+77-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:44:13-44
+78            android:value="2" />
+78-->C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\android\app\src\main\AndroidManifest.xml:45:13-30
+79
+80        <provider
+80-->[:image_picker] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:11:9-19:20
+81            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+81-->[:image_picker] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:12:13-82
+82            android:authorities="com.alijaafar95.ecommerce.flutter.image_provider"
+82-->[:image_picker] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-74
+83            android:exported="false"
+83-->[:image_picker] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-37
+84            android:grantUriPermissions="true" >
+84-->[:image_picker] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-47
+85            <meta-data
+85-->[:image_picker] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-18:75
+86                android:name="android.support.FILE_PROVIDER_PATHS"
+86-->[:image_picker] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:17:17-67
+87                android:resource="@xml/flutter_image_picker_file_paths" />
+87-->[:image_picker] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\image_picker\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-72
+88        </provider>
+89
+90        <service android:name="io.flutter.plugins.firebasemessaging.FlutterFirebaseMessagingService" >
+90-->[:firebase_messaging] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-12:19
+90-->[:firebase_messaging] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:8:18-101
+91            <intent-filter>
+91-->[:firebase_messaging] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
+92                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+92-->[:firebase_messaging] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
+92-->[:firebase_messaging] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+93            </intent-filter>
+94        </service>
+95        <service
+95-->[:firebase_messaging] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:9-17:19
+96            android:name="com.google.firebase.components.ComponentDiscoveryService"
+96-->[:firebase_messaging] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:13:18-89
+97            android:directBootAware="true"
+97-->[com.google.firebase:firebase-common:19.3.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\1f6f177dfda28603ddc2c4caf1aad582\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+98            android:exported="false" >
+98-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\81207c129048cc29b5b7e47a18e0ab6a\firebase-iid-20.0.1\AndroidManifest.xml:31:13-37
+99            <meta-data
+99-->[:firebase_messaging] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-16:85
+100                android:name="com.google.firebase.components:io.flutter.plugins.firebasemessaging.FlutterFirebaseAppRegistrar"
+100-->[:firebase_messaging] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:15:17-127
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[:firebase_messaging] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:16:17-82
+102            <meta-data
+102-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\81207c129048cc29b5b7e47a18e0ab6a\firebase-iid-20.0.1\AndroidManifest.xml:32:13-34:85
+103                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+103-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\81207c129048cc29b5b7e47a18e0ab6a\firebase-iid-20.0.1\AndroidManifest.xml:33:17-96
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\81207c129048cc29b5b7e47a18e0ab6a\firebase-iid-20.0.1\AndroidManifest.xml:34:17-82
+105            <meta-data
+105-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\64bdbbcedc0c27ac82a597e5c4b15120\play-services-measurement-api-17.5.0\AndroidManifest.xml:30:13-32:85
+106                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+106-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\64bdbbcedc0c27ac82a597e5c4b15120\play-services-measurement-api-17.5.0\AndroidManifest.xml:31:17-139
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.android.gms:play-services-measurement-api:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\64bdbbcedc0c27ac82a597e5c4b15120\play-services-measurement-api-17.5.0\AndroidManifest.xml:32:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\1194570ae37fd92a8fa326862e30247b\firebase-installations-16.3.2\AndroidManifest.xml:17:13-19:85
+109                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+109-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\1194570ae37fd92a8fa326862e30247b\firebase-installations-16.3.2\AndroidManifest.xml:18:17-127
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-installations:16.3.2] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\1194570ae37fd92a8fa326862e30247b\firebase-installations-16.3.2\AndroidManifest.xml:19:17-82
+111        </service>
+112
+113        <activity
+113-->[:url_launcher] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:8:9-11:74
+114            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+114-->[:url_launcher] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-74
+115            android:exported="false"
+115-->[:url_launcher] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:10:13-37
+116            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" /> <!-- Needs to be explicitly declared on P+ -->
+116-->[:url_launcher] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:11:13-71
+117        <uses-library
+117-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\e9560971b02c4a874391a1bea9262c6f\play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+118            android:name="org.apache.http.legacy"
+118-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\e9560971b02c4a874391a1bea9262c6f\play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+119            android:required="false" />
+119-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\e9560971b02c4a874391a1bea9262c6f\play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+120        <!--
+121             FirebaseMessagingService performs security checks at runtime,
+122             but set to not exported to explicitly avoid allowing another app to call it.
+123        -->
+124        <service
+124-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\82f1954b49d3fee22a5e16c7ca55b516\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:28:9-34:19
+125            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+125-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\82f1954b49d3fee22a5e16c7ca55b516\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:29:13-82
+126            android:exported="false" >
+126-->[com.google.firebase:firebase-messaging:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\82f1954b49d3fee22a5e16c7ca55b516\jetified-firebase-messaging-20.0.1\AndroidManifest.xml:30:13-37
+127            <intent-filter android:priority="-500" >
+127-->[:firebase_messaging] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:9:13-11:29
+128                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+128-->[:firebase_messaging] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:17-78
+128-->[:firebase_messaging] C:\Users\AHMED\Desktop\Market_v1.0.0\ownerApp\build\firebase_messaging\intermediates\library_manifest\debug\AndroidManifest.xml:10:25-75
+129            </intent-filter>
+130        </service>
+131
+132        <receiver
+132-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\81207c129048cc29b5b7e47a18e0ab6a\firebase-iid-20.0.1\AndroidManifest.xml:37:9-44:20
+133            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+133-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\81207c129048cc29b5b7e47a18e0ab6a\firebase-iid-20.0.1\AndroidManifest.xml:38:13-78
+134            android:exported="true"
+134-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\81207c129048cc29b5b7e47a18e0ab6a\firebase-iid-20.0.1\AndroidManifest.xml:39:13-36
+135            android:permission="com.google.android.c2dm.permission.SEND" >
+135-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\81207c129048cc29b5b7e47a18e0ab6a\firebase-iid-20.0.1\AndroidManifest.xml:40:13-73
+136            <intent-filter>
+136-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\81207c129048cc29b5b7e47a18e0ab6a\firebase-iid-20.0.1\AndroidManifest.xml:41:13-43:29
+137                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+137-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\81207c129048cc29b5b7e47a18e0ab6a\firebase-iid-20.0.1\AndroidManifest.xml:42:17-81
+137-->[com.google.firebase:firebase-iid:20.0.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\81207c129048cc29b5b7e47a18e0ab6a\firebase-iid-20.0.1\AndroidManifest.xml:42:25-78
+138            </intent-filter>
+139        </receiver>
+140
+141        <activity
+141-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\19826b392656c24c6c05c20f2ab41f2c\play-services-base-17.2.1\AndroidManifest.xml:23:9-26:75
+142            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+142-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\19826b392656c24c6c05c20f2ab41f2c\play-services-base-17.2.1\AndroidManifest.xml:24:13-79
+143            android:exported="false"
+143-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\19826b392656c24c6c05c20f2ab41f2c\play-services-base-17.2.1\AndroidManifest.xml:25:13-37
+144            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+144-->[com.google.android.gms:play-services-base:17.2.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\19826b392656c24c6c05c20f2ab41f2c\play-services-base-17.2.1\AndroidManifest.xml:26:13-72
+145
+146        <receiver
+146-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\5fb9658e4cea3fd0b7cb6b851935e9f8\play-services-measurement-17.5.0\AndroidManifest.xml:29:9-33:20
+147            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+147-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\5fb9658e4cea3fd0b7cb6b851935e9f8\play-services-measurement-17.5.0\AndroidManifest.xml:30:13-85
+148            android:enabled="true"
+148-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\5fb9658e4cea3fd0b7cb6b851935e9f8\play-services-measurement-17.5.0\AndroidManifest.xml:31:13-35
+149            android:exported="false" >
+149-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\5fb9658e4cea3fd0b7cb6b851935e9f8\play-services-measurement-17.5.0\AndroidManifest.xml:32:13-37
+150        </receiver>
+151
+152        <service
+152-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\5fb9658e4cea3fd0b7cb6b851935e9f8\play-services-measurement-17.5.0\AndroidManifest.xml:35:9-38:40
+153            android:name="com.google.android.gms.measurement.AppMeasurementService"
+153-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\5fb9658e4cea3fd0b7cb6b851935e9f8\play-services-measurement-17.5.0\AndroidManifest.xml:36:13-84
+154            android:enabled="true"
+154-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\5fb9658e4cea3fd0b7cb6b851935e9f8\play-services-measurement-17.5.0\AndroidManifest.xml:37:13-35
+155            android:exported="false" />
+155-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\5fb9658e4cea3fd0b7cb6b851935e9f8\play-services-measurement-17.5.0\AndroidManifest.xml:38:13-37
+156        <service
+156-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\5fb9658e4cea3fd0b7cb6b851935e9f8\play-services-measurement-17.5.0\AndroidManifest.xml:39:9-43:72
+157            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+157-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\5fb9658e4cea3fd0b7cb6b851935e9f8\play-services-measurement-17.5.0\AndroidManifest.xml:40:13-87
+158            android:enabled="true"
+158-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\5fb9658e4cea3fd0b7cb6b851935e9f8\play-services-measurement-17.5.0\AndroidManifest.xml:41:13-35
+159            android:exported="false"
+159-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\5fb9658e4cea3fd0b7cb6b851935e9f8\play-services-measurement-17.5.0\AndroidManifest.xml:42:13-37
+160            android:permission="android.permission.BIND_JOB_SERVICE" />
+160-->[com.google.android.gms:play-services-measurement:17.5.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\5fb9658e4cea3fd0b7cb6b851935e9f8\play-services-measurement-17.5.0\AndroidManifest.xml:43:13-69
+161
+162        <provider
+162-->[com.google.firebase:firebase-common:19.3.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\1f6f177dfda28603ddc2c4caf1aad582\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+163            android:name="com.google.firebase.provider.FirebaseInitProvider"
+163-->[com.google.firebase:firebase-common:19.3.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\1f6f177dfda28603ddc2c4caf1aad582\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+164            android:authorities="com.alijaafar95.ecommerce.firebaseinitprovider"
+164-->[com.google.firebase:firebase-common:19.3.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\1f6f177dfda28603ddc2c4caf1aad582\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+165            android:exported="false"
+165-->[com.google.firebase:firebase-common:19.3.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\1f6f177dfda28603ddc2c4caf1aad582\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+166            android:initOrder="100" />
+166-->[com.google.firebase:firebase-common:19.3.0] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\1f6f177dfda28603ddc2c4caf1aad582\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+167
+168        <meta-data
+168-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\1282952deef0ff39107a60cec0a11f5d\jetified-play-services-basement-17.2.1\AndroidManifest.xml:23:9-25:69
+169            android:name="com.google.android.gms.version"
+169-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\1282952deef0ff39107a60cec0a11f5d\jetified-play-services-basement-17.2.1\AndroidManifest.xml:24:13-58
+170            android:value="@integer/google_play_services_version" />
+170-->[com.google.android.gms:play-services-basement:17.2.1] C:\Users\AHMED\.gradle\caches\transforms-2\files-2.1\1282952deef0ff39107a60cec0a11f5d\jetified-play-services-basement-17.2.1\AndroidManifest.xml:25:13-66
+171    </application>
+172
+173</manifest>

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\AHMED\\Desktop\\Market_v1.0.0\\ownerApp\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\AHMED\\.gradle\\caches\\transforms-2\\files-2.1\\6f06466fc84f969fa8872526f2c50681\\core-1.1.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "C:\\Users\\AHMED\\Desktop\\Market_v1.0.0\\ownerApp\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\AHMED\\.gradle\\caches\\transforms-2\\files-2.1\\6f06466fc84f969fa8872526f2c50681\\core-1.1.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\AHMED\\Desktop\\Market_v1.0.0\\ownerApp\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\AHMED\\.gradle\\caches\\transforms-2\\files-2.1\\6f06466fc84f969fa8872526f2c50681\\core-1.1.0\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\AHMED\\Desktop\\Market_v1.0.0\\ownerApp\\build\\url_launcher\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\AHMED\\.gradle\\caches\\transforms-2\\files-2.1\\6f06466fc84f969fa8872526f2c50681\\core-1.1.0\\res\\drawable\\notification_tile_bg.xml"
+    }
+]
